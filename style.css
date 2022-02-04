@@ -1,4 +1,9 @@
 
+*{
+    padding:0px;
+    margin:0px;
+}
+
 @font-face {
     font-family: norse;
     src: url(Norse-Bold.otf)
@@ -6,7 +11,6 @@
 
 .container{
     display:flex;
-    background:blue;
     height:100vh;
     width: 100vw;
 }
@@ -15,6 +19,7 @@
     background-image:url("splash.jpeg");
     width:35%;
 }
+
 
 .logo-text-container{
     height: 25%;
@@ -40,4 +45,24 @@
     align-self: center;
     font-size: 7rem;
     font-family:norse;
+}
+
+.right {
+    background:lightgray;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.right-upper-content{
+    height:40%;
+}
+
+.right-middle-content{
+    height:20%;
+    background:white;
+}
+
+.right-bottom-content{
+    height:40%;
 }
