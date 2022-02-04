@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: norse;
+    src: url(Norse-Bold.otf)
+}
+
+.container{
+    display:flex;
+    background:blue;
+    height:100vh;
+    width: 100vw;
+}
+
+.left {
+    background-image:url("splash.jpeg");
+    width:35%;
+}
+
+.logo-text-container{
+    height: 25%;
+    top: 20%;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+}
+
+.logo-text-content {
+    display:flex;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+}
+
+#logo {
+    height:80%;
+    align-self: center;
+}
+
+#logo-text {
+    color: white;
+    align-self: center;
+    font-size: 7rem;
+    font-family:norse;
+}
