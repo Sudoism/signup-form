@@ -18,12 +18,12 @@
 
 .left {
     background-image:url("splash.jpeg");
-    width:35%;
+    width:45%;
 }
 
 
 .logo-text-container{
-    height: 25%;
+    height: 20%;
     top: 20%;
     position: relative;
     background: rgba(0,0,0,0.5);
@@ -50,7 +50,7 @@
 
 #photo-credit{
     position:relative;
-    top:70%;
+    top:75%;
     display: flex;
     justify-content: center;
 }
@@ -70,17 +70,27 @@
 
 .right-upper-content{
     height:40%;
+    width: clamp(45ch,70%, 52ch);
+    font-size:large;
+    font-weight:550;
+    padding-left:2rem;
 }
 
-.right-upper-content>p {
-    width: clamp(45ch,70%, 52ch)
+.right-upper-content>p:first-child {
+    padding-top:12rem;
+}
+
+.right-upper-content>p:last-child {
+    padding-top:2rem;
 }
 
 .right-middle-content{
     height:20%;
     background:white;
+    padding-left:2rem;
 }
 
 .right-bottom-content{
+    padding-left:2rem;
     height:40%;
 }
