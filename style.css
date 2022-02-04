@@ -2,6 +2,7 @@
 *{
     padding:0px;
     margin:0px;
+    font:inherit;
 }
 
 @font-face {
@@ -48,12 +49,17 @@
 }
 
 #photo-credit{
-    color:white;
     position:relative;
     top:70%;
     display: flex;
     justify-content: center;
 }
+
+#photo-credit-content,
+#photo-credit-content>a{
+    color:rgb(211, 211, 211, 0.7);
+}
+
 
 .right {
     background:lightgray;
@@ -64,6 +70,10 @@
 
 .right-upper-content{
     height:40%;
+}
+
+.right-upper-content>p {
+    width: clamp(45ch,70%, 52ch)
 }
 
 .right-middle-content{
