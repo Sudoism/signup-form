@@ -47,6 +47,14 @@
     font-family:norse;
 }
 
+#photo-credit{
+    color:white;
+    position:relative;
+    top:70%;
+    display: flex;
+    justify-content: center;
+}
+
 .right {
     background:lightgray;
     width:100%;
