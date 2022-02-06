@@ -33,20 +33,21 @@
 .logo-text-content {
     display:flex;
     justify-content: center;
+    align-items: center;
     height:100%;
     width: 100%;
 }
 
 #logo {
     height:80%;
-    align-self: center;
 }
 
 #logo-text {
     color: white;
-    align-self: center;
-    font-size: 7rem;
+    font-size: 7em;
     font-family:norse;
+    padding-top:0.3em;
+
 }
 
 #photo-credit{
@@ -145,5 +146,17 @@ button {
 .account-link{
     color:#596D48;
     text-decoration:none;
+    font-weight: bold;
 }
 
+em {
+    font-style:italic;
+}
+
+.invalid {
+    border: red;
+    border-width:1px;
+    border-style:solid;
+    height:1.5rem;
+    border-radius:4px;
+}
