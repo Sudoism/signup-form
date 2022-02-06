@@ -3,6 +3,7 @@
     padding:0px;
     margin:0px;
     font:inherit;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -70,9 +71,9 @@
 
 .right-upper-content{
     height:40%;
-    width: clamp(45ch,70%, 52ch);
-    font-size:large;
-    font-weight:550;
+    width: clamp(45ch,70%, 65ch);
+    font-size:1.5rem;
+    font-weight:500;
     padding-left:2rem;
 }
 
@@ -81,16 +82,60 @@
 }
 
 .right-upper-content>p:last-child {
-    padding-top:2rem;
+    padding-top:1rem;
+    margin-bottom: 1rem;
 }
 
 .right-middle-content{
-    height:20%;
+    margin-top:1em;
+    height:35%;
     background:white;
     padding-left:2rem;
+    box-shadow:1px 1px 4px gray;
 }
 
 .right-bottom-content{
     padding-left:2rem;
     height:40%;
+}
+
+label {
+    margin-top:10em;
+    font-size:0.8rem;
+}
+
+input {
+    width:250px;
+}
+
+button {
+    background-color: #596D48;
+    color:white;
+    padding:1em;
+    border-radius:4px;
+    margin-top:1em;
+    margin-bottom:1em;
+    width:200px;
+    border:none;
+    box-shadow:1px 1px 4px gray;
+}
+
+.form-container {
+    display:flex;
+    gap:10rem;
+}
+
+.form-input{
+    margin-top:1em;
+}
+
+#middle-header {
+    font-size:1.5rem;
+    margin-top:0.5rem;
+    font-weight:550;
+}
+
+.account-link{
+    color:#596D48;
+    text-decoration:none;
 }
