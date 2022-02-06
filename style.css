@@ -79,12 +79,12 @@
 }
 
 .right-upper-content>p:first-child {
-    padding-top:12rem;
+    padding-top:7rem;
 }
 
 .right-upper-content>p:last-child {
-    padding-top:1rem;
-    margin-bottom: 1rem;
+    padding-top:3rem;
+    margin-bottom: 3.5rem;
 }
 
 .right-middle-content{
@@ -159,4 +159,9 @@ em {
     border-style:solid;
     height:1.5rem;
     border-radius:4px;
+}
+
+#password-error {
+    color: red;
+    font-size: 0.7rem;
 }
